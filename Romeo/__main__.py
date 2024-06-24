@@ -11,7 +11,7 @@ from Romeo.misc import sudo
 from Romeo.plugins import ALL_MODULES
 from Romeo.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
-
+from dotenv import load_dotenv
 
 async def init():
     if (
