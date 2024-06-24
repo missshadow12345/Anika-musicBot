@@ -4,7 +4,7 @@ from Romeo.core.git import git
 from Romeo.core.userbot import Userbot
 from Romeo.misc import dbb, heroku
 from Romeo.logging import LOGGER
-
+from dotenv import load_dotenv
 git()
 
 
